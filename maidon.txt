@@ -1,0 +1,17 @@
+CREATE TABLE `ecoms`.`account` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `name` VARCHAR(100) NULL,
+  `username` VARCHAR(100) NULL,
+  `password` VARCHAR(100) NULL,
+  `email` VARCHAR(100) NULL,
+  `status` VARCHAR(100) NULL,
+  PRIMARY KEY (`id`));
+
+
+CREATE TABLE `ecoms`.`product` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `name` VARCHAR(100) NULL,
+  `description` VARCHAR(100) NULL,
+  `price` VARCHAR(100) NULL,
+  `quantity` VARCHAR(100) NULL,
+  PRIMARY KEY (`id`));
